@@ -29,6 +29,8 @@ d. Screenshot output program
 
 
 ## Linked List
+![Screenshot 2025-04-23 130136](https://github.com/user-attachments/assets/a2cfb838-d44a-4f7e-98b3-ced0344c553c)
+berdasarkan gambar diatas telah dilakukan implementasi skyline query dengan cara linked list, implmentasi ini memiliki kompleksitas O(n²), linked list ini tidak terlalu efisien Karena Linked List tidak mendukung indexing cepat atau area pruning, sehingga harus membandingkan satu-satu (brute-force), juga Tidak efisien untuk dataset besar karena operasi penghapusan `(remove_if)` membutuhkan O(n).
 
 ## Stack
 
